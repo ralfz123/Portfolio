@@ -426,19 +426,19 @@ ul#nav li.current a {
 }
 
 .css {
-    width: 50%;
+    width: 70%;
     -moz-animation: css 2s ease;
     -webkit-animation: css 2s ease;
 }
 
 .html5 {
-    width: 70%;
+    width: 80%;
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
 }
 
 .javascript {
-    width: 50%;
+    width: 60%;
     -moz-animation: javascript 2s ease;
     -webkit-animation: javascript 2s ease;
 }
