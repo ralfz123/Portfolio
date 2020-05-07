@@ -252,7 +252,12 @@ ul#nav li.current a {
     height: 100%;
     margin-top: 0.2em;
     border-radius: 27px;
-    box-shadow: 1px 1px 5px rgb(0, 0, 0);;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+#about .profile-pic:hover {
+    transform: translateY(-10px);
+    transition: all 0.2s ease-in-out;
 }
 
 #about .contact-details {
