@@ -35,11 +35,49 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/fotos/background/preset-4.jpg) no-repeat top center;
+    background: #161415 url(../images/fotos/background/background-min.jpg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
+
+    animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -o-animation: fadein 2.5s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:.4;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:.4;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:.4;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* vertically center banner section */
@@ -257,7 +295,10 @@ ul#nav li.current a {
 
 #about .profile-pic:hover {
     transform: translateY(-10px);
-    transition: all 0.2s ease-in-out;
+    /* transition: all 0.2s ease-in-out; */
+    transition: 0.25s;
+    /* transition-timing-function: ease-out; */
+
 }
 
 #about .contact-details {
