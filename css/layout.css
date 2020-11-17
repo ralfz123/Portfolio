@@ -1193,7 +1193,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
     color: #fff;
-    background-color: #DC143C;
+    background-color: rgb(85, 2, 18); 
 }
 
 #contact button.submit {
