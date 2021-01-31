@@ -8,34 +8,32 @@
  |_|  \__,_|_|_| /___|_|____|____/ 
 
 -->
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!-->
 <html class="no-js" lang="en">
-
-<!--<![endif]-->
-
-<head>
-
+  <head>
     <!--- Basic Page Needs
    ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Ralf Zonneveld | Portfolio</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="ralf zonneveld, ralfzonneveld, CMD, digital designer, digital interactive designer, frontend developer, UX designer, user-friendly products"/>
-
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta
+      name="keywords"
+      content="ralf zonneveld, ralfzonneveld, CMD, digital designer, digital interactive designer, frontend developer, UX designer, user-friendly products, design, amsterdam, hoofddorp, schiphol"
+    />
 
     <!-- Mobile Specific Metas
    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/media-queries.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
 
     <!-- Script
    ================================================== -->
@@ -43,923 +41,1392 @@
 
     <!-- Favicons
 	================================================== -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" />
 
+    <!-- Libraries
+	================================================== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- Header
    ================================================== -->
     <header id="home">
+      <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation"
+          >Show navigation</a
+        >
+        <a class="mobile-btn" href="#" title="Hide navigation"
+          >Hide navigation</a
+        >
 
-        <nav id="nav-wrap">
+        <ul id="nav" class="nav">
+          <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+          <li><a class="smoothscroll" href="#about">Wie ben ik</a></li>
+          <li><a class="smoothscroll" href="#portfolio">Werk</a></li>
+          <li><a class="smoothscroll" href="#resume">Skills</a></li>
+          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+        </ul>
+        <!-- end #nav -->
+      </nav>
+      <!-- end #nav-wrap -->
 
-            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-            <ul id="nav" class="nav">
-                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-                <li><a class="smoothscroll" href="#about">Over mij</a></li>
-                <li><a class="smoothscroll" href="#resume">Mijn verleden</a></li>
-                <li><a class="smoothscroll" href="#portfolio">Mijn werk</a></li>
-                <li><a class="smoothscroll" href="#contact">Contact</a></li>
-            </ul> <!-- end #nav -->
-
-        </nav> <!-- end #nav-wrap -->
-
-        <div class="row banner">
-            <div class="banner-text">
-                <h1 class="responsive-headline">Ik ben Ralf Zonneveld.</h1>
-                <h3>Welkom op mijn portfolio!
-                    <br>
-                     <a class="smoothscroll" href="#about">Scroll</a> gerust naar beneden om mij beter te leren kennen.</h3>
-                <hr />
-                <ul class="social">
-                    <li><a href="https://github.com/ralfz123" target="_blank"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/ralf-zonneveld-89b9171a0/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://www.facebook.com/ralf.zonneveld.1" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/ralfoolz/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-            </div>
+      <div class="row banner">
+        <div class="banner-text">
+          <h1 class="responsive-headline">
+            Ik ben Ralf Zonneveld
+            <span>
+              <img
+                id="rotate-emoji"
+                src="https://i.pinimg.com/originals/85/7f/d7/857fd79dfd7bd025e4cbb2169cd46e03.png"
+                alt=""
+                width="50%"
+              /> </span
+            >.
+          </h1>
+          <h3>
+            Welkom op mijn portfolio!
+            <br />
+            <a class="smoothscroll" href="#about">Scroll</a> gerust naar beneden
+            om mij beter te leren kennen.
+          </h3>
+          <hr />
+          <ul class="social">
+            <li>
+              <a href="https://github.com/ralfz123" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ralf-zonneveld-89b9171a0/"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/ralf.zonneveld.1"
+                target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ralfoolz/" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
         </div>
+      </div>
 
-        <p class="scrolldown">
-            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-        </p>
-
-    </header> <!-- Header End -->
-
+      <p class="scrolldown">
+        <a class="smoothscroll" href="#about"
+          ><i class="icon-down-circle"></i
+        ></a>
+      </p>
+    </header>
+    <!-- Header End -->
 
     <!-- About Section
    ================================================== -->
     <section id="about">
-
-        <div class="row">
-
-            <div class="three columns">
-
-                <img class="profile-pic" src="images/fotos/background/preset-18.jpg" alt="" />
-
-            </div>
-
-            <div class="nine columns main-col">
-
-                <h2>Over mij 👨🏻‍💻</h2>
-                <p>Ik ben Ralf Zonneveld. Ik ben een CMD-student aan de Hogeschool van Amsterdam (HvA). Ik zit in mijn derde leerjaar en ik heb in het eerste jaar in een keer mijn Propedeuse gehaald.
-                    Ik heb in het eerste jaar van de opleiding Communication &amp; Multimedia Design (CMD) veel geleerd,
-                    vooral op het vlak van Visual Design en Research.
-                    Bovendien vond ik Visual en Interaction Design de 2 leuke vakgebieden die mijn interesse wekte,
-                    omdat ik heel erg bezig was met het ontwerpen voor de gebruiker. Gebruik van iconen en visuals waren toen ook erg aanwezig.
-                    <br>
-                    <br>
-                    In mijn 2e jaar heb ik mij meer verdiept in Frontend Development. 
-                    Daardoor ben ik erachter gekomen dat dat toch meer mijn interesse wekt,
-                    omdat je ook bezig bent met Visual en Interaction Design, maar dan op een andere manier.
-                    Ik ben een gestructureerd persoon die alles het liefst volgens een planning maakt.
-                    Bovendien beheers ik de basiskennis van de talen HTML5 en CCS3. Echter vind ik de talen nog steeds interessant,
-                    omdat je er oneindig veel en uitgebreide ontwerpen mee kunt maken.
-                    </p>
-
-                    <div class="row">
-
-                        <div class="columns contact-details">
-
-                            <h2>E-mail ✉️</h2>
-                            <p class="address">
-                                <span><a href="mailto:ralf_zonneveld@hotmail.com">ralf_zonneveld@hotmail.com</a></span>
-                            </p>
-
-                        </div>
-
-
-
-                    </div> <!-- end row -->
-
-            </div> <!-- end .main-col -->
-
+      <div class="row">
+        <div class="three columns">
+          <img
+            class="profile-pic"
+            src="images/fotos/background/preset-18.jpg"
+            alt=""
+          />
         </div>
 
-    </section> <!-- About Section End-->
+        <div class="nine columns main-col">
+          <h2>Wie ben ik? 👨🏻‍💻</h2>
+          <p>
+            Hey! Ik ben Ralf Zonneveld 👋. Ik ben een Communication &amp;
+            Multimedia Design-student aan de Hogeschool van Amsterdam (HvA).
+            Momenteel zit ik in mijn derde leerjaar en heb ik in het eerste jaar
+            in een keer mijn Propedeuse gehaald. Ik heb afgelopen CMD-jaren veel
+            geleerd, vooral op het gebied van Visual Design, Research en
+            Frontend-Development. Bovendien vond ik Visual en Interaction Design
+            de 2 leuke vakgebieden die mijn interesse wekte, omdat ik heel erg
+            bezig was met het ontwerpen voor de gebruiker.
+            <br />
+            <br />
+            Vanaf het 2e jaar heb ik mij meer verdiept in Frontend Development.
+            Daardoor ben ik erachter gekomen dat dat toch meer mijn interesse
+            wekt, omdat je ook bezig bent met Visual en Interaction Design, maar
+            dan op een andere manier. Ik ben een gestructureerd persoon die
+            alles het liefst volgens een planning maakt. Bovendien beheers ik
+            een brede basiskennis van de talen HTML en CCS. Echter vind ik de
+            talen nog steeds interessant, omdat je er oneindig veel en
+            uitgebreide ontwerpen mee kunt maken. Gelukkig dat deze technologie
+            zich nog elke dag uitbreidt 🚀.
+          </p>
 
-
-    <!-- Resume Section
-   ================================================== -->
-    <section id="resume">
-
-        <!-- Education
-      ----------------------------------------------- -->
-        <div class="row education">
-
-            <div class="three columns header-col">
-                <h1><span>Educatie</span></h1>
+          <div class="row">
+            <div class="columns contact-details">
+              <h2>
+                E-mail
+                <span><a href="mailto:ralf_zonneveld@hotmail.com"> ✉️</a></span>
+              </h2>
+              <p class="address">
+                <span
+                  ><a href="mailto:ralf_zonneveld@hotmail.com"
+                    >ralf_zonneveld@hotmail.com</a
+                  ></span
+                >
+              </p>
             </div>
-
-            <div class="nine columns main-col">
-
-                <div class="row item">
-
-                    <div class="twelve columns">
-
-                        <h3>Communication &amp; Multimedia Design</h3>
-                        <p class="info">Hogeschool van Amsterdam<span>&bull;</span> <em class="date">September 2018 - Nu</em></p>
-
-                        <p>
-                            Sinds september 2018 ben ik bezig met de studie Communication &amp; Multimedia Design. Een keuze waar ik zeker geen spijt van heb.
-                            Op deze opleiding word ik opgeleid tot een ontwerper die digitale interactieve producten kan ontwerpen. De focus ligt dan op Visual Design,
-                            Interaction Design en Front-end Development. Dat laatste is wat erg mijn aandacht trekt en waar ik affiniteit mee heb. Ik zie mijzelf
-                            later als een Front-end Developer (of zelfs Full-Stack Developer) rondlopen in mijn eigen bedrijf om alles onder controle te houden.
-                            <a href="#portfolio">Mijn werk</a> laat dan ook zien dat ik mijzelf steeds meer aan het ontwikkelen ben op
-                            het technisch gebied.
-                        </p>
-                    </div> <!-- item end -->
-                </div>
-
-                <div class="row item">
-                    <div class="twelve columns">
-
-                        <h3>HAVO</h3>
-                        <p class="info">Herbert Vissers College<span>&bull;</span> <em class="date">September 2012 - Juni 2018</em></p>
-
-                        <p>
-                            Een aantal jaren geleden heb ik het niveau HAVO op de middelbare school gevolgd.
-                            In het derde leerjaar moest ik een kant kiezen.
-                            Uiteraard koos ik voor Natuur &amp; Techniek, omdat dat vakkenpakket de vakken bevatte die ik leuk vond. Ik houd namelijk erg van de natuur,
-                            maar ook van hoe bijvoorbeeld systemen werken of bepaalde software.
-                            Bovendien koos ik niet voor een ander vakkenpakket, omdat die de vakken bevatten die ik niet interessant vond,
-                            omdat ik daar geen passie mee had. Uiteindelijk ben ik succesvol geslaagd voor mijn HAVO diploma.
-                        </p>
-
-                    </div>
-
-                </div> <!-- item end -->
-
-
-            </div> <!-- main-col end -->
-
-        </div> <!-- End Education -->
-
-
-        <!-- Work
-      ----------------------------------------------- -->
-        <div class="row work">
-
-            <div class="three columns header-col">
-                <h1><span>Werk</span></h1>
-            </div>
-
-            <div class="nine columns main-col">
-
-                <div class="row item">
-
-                    <div class="twelve columns">
-
-                        <h3>Woonzorgmedewerker</h3>
-                        <p class="info">Zorgbalans, Bennebroek <span>&bull;</span> <em class="date">Juni 2019 - Nu</em></p>
-
-                        <p>Sinds juni 2019 werk ik als woonzorgmedewerker in een verzorgingstehuis in Bennebroek. De afdeling waarop ik werk is een psychogeriatrische en psychische groep.
-                            Hiervoor had ik totaal geen ervaring in de zorg, maar ik was wel altijd zorgzaam en sociaal.
-                            Dit werk vind ik overigens ook zeer goed voor mijn eigen sociale ontwikkeling. Tot slot vind ik dit werk erg leuk en blijft het mij iedere keer weer steeds motiveren om
-                            voor de bewoners te zorgen.
-                        </p>
-
-                    </div>
-
-                </div> <!-- item end -->
-
-
-                <div class="row item">
-
-                    <div class="twelve columns">
-
-                        <h3>Kok in Steakrestaurant</h3>
-                        <p class="info">Massada, Nieuw-Vennep <span>&bull;</span> <em class="date">April 2015 - Augustus 2019</em></p>
-
-                        <p>Toen ik op 15 jarige leeftijd op zoek was naar een bijbaantje kwam ik op het idee om in een steakrestaurant te gaan werken.
-                            Echter had ik nog geen keuken ervaring, dus begon ik als afwasser. In de loop der tijd werd ik kok van de koude kant.
-                            Kok van de koude kant wordt ook wel <i>Garde manger</i> genoemd. Na hier zo'n 5 jaar veel geleerd te hebben over het managen van voorraden maken, schoonmaken
-                            en uiteraard eten klaarmaken vond ik het goed zo en ben ik hier gestopt.
-                        </p>
-
-                    </div>
-
-                </div> <!-- item end -->
-
-                <div class="row item">
-
-                    <div class="twelve columns">
-
-                        <h3>Sales Promotor NRC</h3>
-                        <p class="info">Pepperminds, Haarlem <span>&bull;</span> <em class="date">Mei 2018 - September 2018 </em></p>
-
-                        <p>
-                            Voor een paar maanden heb ik bij Pepperminds gewerkt als Sales Promotor (straatverkoper) van het NRC. Dit wekte erg mijn interesse, omdat
-                            mij veel werd geleerd over verschillende verkoopstrategiën. Ook manieren hoe je mensen kunt beïnvloeden (denk aan de principes van Robert Cialdini)
-                            waren voor mij compleet nieuw. Er werd van mij verwacht dat ik met volle motivatie en overtuiging de straat op ging om NRC abonnementen te verkopen.
-                            Ik vond dit een prima zomerbaan, maar na een tijdje verveelde het en voelde ik niet meer de 'vibe' die ik aan het begin had.
-                            Tot slot heb ik daar veel geleerd over Sales en psychologische beïnvloeding en heeft dat mij deels gemaakt tot de persoon die ik nu ben.
-                        </p>
-
-                    </div>
-
-                </div> <!-- item end -->
-
-            </div> <!-- main-col end -->
-
-        </div> <!-- End Work -->
-
-
-        <!-- Skills
-      ----------------------------------------------- -->
-        <div class="row skill">
-
-            <div class="three columns header-col">
-                <h1><span>Skills</span></h1>
-            </div>
-
-            <div class="nine columns main-col">
-
-                <p>Ik ben goed in het <b>gestructureerd</b> werken en zó houd ik overzicht voor mijzelf over mijn werk. Verder ben ik <b>behulpzaam</b>, want ik sta graag voor mensen klaar om hun te helpen. <b>Sociaal</b> zijn één van de woorden die vaak over mij worden gezegd. Ik sta altijd open voor nieuwe contacten en ik wil graag steeds meer leren over de samenleving. Ook ben ik <b>leergierig</b>, omdat ik soms graag veel wil weten en leren over bepaalde onderwerpen. Een goede eigenschap van mij is ook het <b>denken in oplossingen</b>, want als er een probleem is, ga ik direct nadenken hoe ik dat probleem zo snel en goed mogelijk kan oplossen.
-                </p>
-
-                <div class="bars">
-
-                    <ul class="skills">
-                        <li><span class="bar-expand photoshop"></span><em>Adobe Photoshop</em></li>
-                        <li><span class="bar-expand illustrator"></span><em>Adobe Illustrator</em></li>
-                        <li><span class="bar-expand premierepro"></span><em>Adobe Premiere Pro</em></li>
-                        <li><span class="bar-expand adobexd"></span><em>Adobe XD</em></li>
-                        <li><span class="bar-expand css"></span><em>CSS3</em></li>
-                        <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                        <li><span class="bar-expand javascript"></span><em>Vanilla Javascript</em></li>
-                        <li><span class="bar-expand react"></span><em>React Framework</em></li>
-                        <li><span class="bar-expand invision"></span><em>Invision</em></li>
-                        <li><span class="bar-expand cplusplus"></span><em>C++</em></li>
-                    </ul>
-
-                </div><!-- end skill-bars -->
-
-            </div> <!-- main-col end -->
-
-        </div> <!-- End skills -->
-
-    </section> <!-- Resume Section End-->
-
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end .main-col -->
+      </div>
+    </section>
+    <!-- About Section End-->
 
     <!-- Portfolio Section
    ================================================== -->
     <section id="portfolio">
-
-        <div class="row">
-
-            <div class="twelve columns collapsed">
-
-                <h1>Bekijk hieronder mijn werk.</h1>
-
-                <!-- portfolio-wrapper -->
-                <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-                   
-                    <!-- <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-12" title="">
-                                <img alt="" src="images/fotos/lindenit/lindenitKL.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Dataviz De Volkskrant - De auto in de stad</h5>
-                                        <p>Tech-Track - Information Design</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div> -->
-                    <!-- </div> item end -->
-                    
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-11" title="">
-                                <img alt="" src="images/fotos/lindenit/lindenitKL.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Voortgangsapp voor IT-Professionals</h5>
-                                        <p>Internship / Stage</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-10" title="">
-                                <img alt="" src="images/fotos/blocktech/bloktechKl.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>DateIT - dating app voor IT'ers</h5>
-                                        <p>DateIT - Block Tech</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-09" title="">
-                                <img alt="" src="images/fotos/fed/fedKl.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Pixelperfect namaken van bestaande website - Dunkin' Donuts</h5>
-                                        <p>Frontend Development</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-08" title="">
-                                <img alt="" src="images/fotos/program/programKl.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Tamagotchi interactief spel - Eerste aanraking met Javascript</h5>
-                                        <p>Inleiding Programmeren</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-07" title="">
-                                <img alt="" src="images/fotos/intstd/internetstandaardenKl.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Eerste website in HTML & CSS3</h5>
-                                        <p>Internetstandaarden</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-06" title="">
-                                <img alt="" src="images/fotos/VId/vidKl.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>App Biblion boekenzoeker</h5>
-                                        <p>Visual Interface Design (VID)</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-05" title="">
-                                <img alt="" src="images/fotos/ucdposter/ucdklein.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Poster Koffie-ervaring verbetering</h5>
-                                        <p>User Centered Design (UCD) </p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-04" title="">
-                                <img alt="" src="images/fotos/hciontwerpopdrcht/hciOntwerKl.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Ontwerpopdracht Bierkratten</h5>
-                                        <p>Human Computer Interaction (HCI)</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-03" title="">
-                                <img alt="" src="images/fotos/projectindi/projectinKLe.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>App '<i>Find your side job!</i>'</h5>
-                                        <p>Project 1 Individueel</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-02" title="">
-                                <img alt="" src="images/fotos/video/videoGr%20kopiekopie.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Productvideo '<i>Dr. Sleep</i>'</h5>
-                                        <p>Project 2 Team</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-01" title="">
-                                <img alt="" src="images/fotos/onepage/onepageKlein.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                        <h5>Onepager Foodtruck</h5>
-                                        <p>Vormgeving</p>
-                                    </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-
-                        </div>
-                    </div> <!-- item end -->
-
-                </div> <!-- portfolio-wrapper end -->
-
-            </div> <!-- twelve columns end -->
-
-
-            <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-            <div id="modal-01" class="popup-modal mfp-hide">
-
-                <img class="scale-with-grid" src="images/fotos/onepage/opzet%20foto.jpg" alt="" />
-
-                <div class="description-box">
-                    <h4>Onepager Foodtruck | Vormgeving</h4>
-                    <p>Ik ben erg trots op hoe ik mijn onepager heb gemaakt, omdat ik van iets lelijks iets moois heb gemaakt. Je ziet goed de iteratiestappen die ik doorlopen heb, omdat de versies erg verschillen van elkaar. Bovendien vind ik het ook knap dat ik een stijl heb gekozen en mijn best heb gedaan om deze stijl toe te passen in mijn ontwerp. Je moet op veel dingen letten als je zo’n stijl toepast, namelijk contrast, kleur, typografie, witruimte etc. In mijn eerste versies was dat niet echt gelukt, maar na verder onderzoek van de stijl beheerste ik de stijl en lukte het mij om een beter ontwerp te maken.
-                        <br>
-                        Ik vind dit ook een van de leukste dingen van de opleiding, omdat ik Visual Design erg leuk vind. Ik vind het leuk om creatief bezig te zijn, maar wel met beeld/visueel materiaal. De reden hiervoor is dat je met visueel materiaal zoveel kan en er uiteindelijk veel mee kan bereiken. </p>
-
-                </div>
-
-                <div class="link-box">
-
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div><!-- modal-01 End -->
-
-            <div id="modal-02" class="popup-modal mfp-hide">
-
-                <a href="https://www.youtube.com/watch?v=azMcG8tGnH4"  target="_blank"><img class="scale-with-grid" src="images/fotos/video/videoGr.jpg" alt="" /></a>
-
-                <div class="description-box">
-                    <h4>Productvideo <i>Dr. Sleep</i> |
-                        Project 2 Team</h4>
-                    <p>Door <a href="https://www.youtube.com/watch?v=azMcG8tGnH4" target="_blank" style="color: red; text-decoration: underline;">hier</a> te klikken kan je de video bekijken. Ik vond het erg leerzaam en leuk om deze video te maken, omdat ik hiervoor eigenlijk geen ervaring had met Adobe Premiere Pro en Adobe AfterEffects. Hoewel ik geen kennis had, ging ik wel gewoon er mee aan de slag. Mijn hulpmiddelen waren Youtube en medestudenten als ik er even niet uit kwam.
-                        <br>
-                        Dit is ook visueel creatief zijn, want je bewerkt en ontwerpt beelden die je vervolgens ziet in een videoclip. Dit is natuurlijk wel anders dan ontwerpen maken als 2D statische beelden, want bij video editing moet je per frame/scherm ontwerpen. Dat is moeilijker omdat de beelden bewegen en er uiteindelijk meer tijd in zit.
-                        <br>
-                        In het begin had ik enkele opstart problemen omdat het allemaal nieuw voor mij was, maar na een tijdje had ik het onder de knie en zat ik in een flow. Uiteindelijk had ik er zeker ongeveer 25 uur ingestoken.</p>
-
-                </div>
-
-                <div class="link-box">
-
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div><!-- modal-02 End -->
-
-            <div id="modal-03" class="popup-modal mfp-hide">
-
-                <a href="https://xd.adobe.com/view/55339d4c-2b38-4eca-70e1-1ab0995ca239-2302/?fullscreen" target="_blank"> <img class="scale-with-grid" src="images/fotos/projectindi/projectinG1.jpg" alt="" /></a>
-
-                <div class="description-box">
-                    <h4>App <i>Find your side job!</i> |
-                        Project 1 Individueel</h4>
-                    <p>De app kan je <a href="https://xd.adobe.com/view/55339d4c-2b38-4eca-70e1-1ab0995ca239-2302/?fullscreen" target="_blank" style="color: red; text-decoration: underline;">hier</a> bekijken. <br> Wat ben ik trots op mijn eerste zelfgemaakte app! Een app die de mogelijkheid geeft om jouw geschikte bijbaan te vinden. Dit kan door middel van een vragenlijst in te vullen op basis van het principe One Primary Action Per Screen van Joshua Porter.
-                        <br>
-                        De stijl van de app leek eerst niet echt goed op de stijl van de ISGA gids. De ISGA gids heeft namelijk een stijl die wij moesten overnemen in ons ontwerp. Maar omdat ik veel stappen heb doormaakt en dus veel iteraties, lijkt de laatste versie van de app heel erg op de stijl van de ISGA. Verder vond ik het leerzaam om dit te doen, omdat ik creatief bezig was met vormgeven en het precieze werk daarvan. Om tot in de details te werken, krijg je uiteindelijk een concreter en beter ontwerp.
-
-                    </p>
-
-                </div>
-
-                <div class="link-box">
-
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div><!-- modal-03 End -->
-
-            <div id="modal-04" class="popup-modal mfp-hide">
-
-                <img class="scale-with-grid" src="images/fotos/hciontwerpopdrcht/hciOntwer.jpg" alt="" />
-
-                <div class="description-box">
-                    <h4>Ontwerpopdracht Bierkratten |
-                        Human Computer Interaction (HCI)</h4>
-                    <p>Dit is een hele leerzame opdracht voor mij geweest, want ik heb hier visuele hiërarchie gebruikt maar ook dus de uiteindelijke doelen van die elementen. Als je bijvoorbeeld wil dat iemand iets gaat kopen, dan moet je ervoor zorgen dat je de aandacht/focus legt op het koopelement. Deze call-to-action zal dan leiden tot een actie (de aankoop) en dat is wat je wil bereiken.
-                        <br>
-                        Bij dit onderdeel van HCI heb ik ook het principe <i>herkennen is beter dan herinneren</i> gebruikt, want als mensen het icoon van een winkelwagen of een hartje voor favorieten herkennen, dan zijn ze eerder geneigd erop te klikken. Het is dus ook beter dan herinneren, want anders belast het het cognivitieve deel van de hersenen.
-                        <br>
-                        Als je kijkt naar de 2 verschillende versies, zie je dat het bij de eerste versie niet duidelijk was wat de ‘opdracht’ inhield. Het was onoverzichtelijk en daardoor niet duidelijk. Bij de laatste versie zie je dat dit aangepakt en verbetert is. Het is nu overzichtelijk en duidelijk wat er gedaan moet worden.
-                    </p>
-
-                </div>
-
-                <div class="link-box">
-
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div><!-- modal-04 End -->
-
-            <div id="modal-05" class="popup-modal mfp-hide">
-
-                <img class="scale-with-grid" src="images/fotos/ucdposter/ucdgroot.jpg" alt="" />
-
-                <div class="description-box">
-                    <h4>Poster Koffie-ervaring verbetering |
-                        User Centered Design (UCD</h4>
-                    <p>Dit is toch mijn eerste echte visuele ontwerp geweest. Mijn ontwerpaanpak was ook niet de beste, want ik probeerde maar wat. Ik had ook nog vrij weinig kennis over de tools en ik had er eigenlijk geen ervaring mee. Ik begon aan mijn eerste versie van de poster en het leek visueel hiërarchisch goed voor mijn gevoel. Maar na enige feedback heb ik een paar aanpassingen gedaan en het leek gelijk wat beter. Er was gelijk een duidelijke samenhang van de elementen in de poster. Hoewel de iteratiestappen tussen de versies niet heel groot zijn, heb ik er toch een duidelijke en overzichtelijke poster van gemaakt.
-                        <br>
-                        Ik heb wel geleerd om met elementen te werken en ervoor te zorgen dat er een overeenkomst is tussen die elementen. Verder heb ik geleerd om met kleuren te spelen, omdat dat heel erg invloed kan hebben op je ontwerp. De aandacht wordt vaak getrokken door kleur. Gelukkig snap ik nu hoe ik eenvoudig een poster in elkaar zet en ik zal dit meenemen in mijn volgende ontwerpen.
-                        <br>
-                        Dit is trouwens ook weer een visueel onderdeel en dat heeft me dus toen al overtuigd. Zowel de visuele hiërarchie in een ontwerp als gebruikte kleuren stonden bij dit onderdeel bovenaan.
-                    </p>
-
-                </div>
-
-                <div class="link-box">
-
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div><!-- modal-05 End -->
-
-            <div id="modal-06" class="popup-modal mfp-hide">
-
-                <a href="https://xd.adobe.com/view/16529031-e541-4f7b-7a80-2523c0a80e08-6063/?fullscreen" target="_blank"> <img class="scale-with-grid" src="images/fotos/VId/vidGr.jpg" alt="" /></a>
-
-                <div class="description-box">
-                    <h4>App Biblion boekenzoeker |
-                        Visual Interface Design (VID)</h4>
-                    <p>De app kan je <a href="https://xd.adobe.com/view/16529031-e541-4f7b-7a80-2523c0a80e08-6063/?fullscreen" target="_blank" style="color: red; text-decoration: underline;">hier</a> bekijken. <br>Visual Interface Design. De naam zegt het eigenlijk al; het ontwerpen van een jnterface op visueel gebied. Ik vind dit vak, en natuurlijk de bijbehorende opdracht, erg leuk, omdat je veel bezig bent met designen. Maar je bent niet zomaar aan het designer, je designt namelijk voor een bepaalde doelgroep. En dát maakt het interessant, omdat je het voor die doelgroep aantrekkelijk moet maken. Je moet de interesses van de doelgroep weten zodat je je ontwerp daarop kan aanpassen. Zo sluit uiteindelijk het ontwerp aan op de (onbewuste) wensen van de doelgroep.
-                        <br>
-                        Ik ben erg trots op mijn ontwerp, want ik had eerst wel een idee hoe ik het zou aanpakken maar ik had nog niet nagedacht over de doelgroep. Nadat ik daar onderzoek naar gedaan had, heb ik dat wél toegepast in mijn ontwerp voor de iPad. Je ziet ook dat er duidelijk verschil is tussen versie 1 en de laatste versie. Bovendien heb ik een hoop iteratiestappen doorlopen, wat uiteindelijk tot een duidelijk en helder ontwerp leidde.</p>
-
-                </div>
-
-                <div class="link-box">
-
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div><!-- modal-06 End -->
-             
-            <div id="modal-07" class="popup-modal mfp-hide">
-
-                <a href="https://ralfz123.github.io/internetstandaarden_20182019_year1CMD/index.html" target="_blank"><img class="scale-with-grid" src="images/fotos/intstd/internetstandaarden.jpg" alt="" /></a>
-
-                <div class="description-box">
-                    <h4>Internetstandaarden | Eerst gebouwde website</h4>
-                    <p>Bij dit vak heb ik voor het eerst leren omgaan met HTML5 en CSS3. Ik vond het zeer interessant en ik wil zeker deze kant opgaan! Neem <a href="https://ralfz123.github.io/internetstandaarden_20182019_year1CMD/index.html" target="_blank" style="color: red; text-decoration: underline;">hier</a> een kijkje in mijn gemaakte website.
-                        <br>
-                        <br>
-                         De GitHub repository is <a href="https://github.com/ralfz123/internetstandaarden_20182019_year1CMD" target="_blank" style="color: red; text-decoration: underline;">hier</a> te vinden.
-                        </p>
-                </div>
-
-                <div class="link-box">
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div>
-
-            <div id="modal-08" class="popup-modal mfp-hide">
-
-                <a href="https://ralfz123.github.io/inleidingProgrammeren_20182019_year1CMD/index.html" target="_blank"><img class="scale-with-grid" src="images/fotos/program/program.jpg" alt="" /></a>
-
-                <div class="description-box">
-                    <h4>Inleiding Programmeren | Tamagotchi</h4>
-                    <p> Dit vak was de eerste aanraking met JavaScript (ES5). Een nieuw, moeilijk maar zeer interessant vak. Neem <a href="https://ralfz123.github.io/inleidingProgrammeren_20182019_year1CMD/index.html" target="_blank" style="color: red; text-decoration: underline;">hier</a> een kijkje in mijn gemaakte website.
-                        <br>
-                        <br>
-                         De GitHub repository is <a href="https://github.com/ralfz123/inleidingProgrammeren_20182019_year1CMD" target="_blank" style="color: red; text-decoration: underline;">hier</a> te vinden.
-                    </p>
-                </div>
-
-                <div class="link-box">
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div>
-
-            <div id="modal-09" class="popup-modal mfp-hide">
-
-                <a href="https://ralfz123.github.io/Website-v2-Ralf-Zonneveld-204/Ralf_Zonneveld_204_v2/index.html" target="_blank"><img class="scale-with-grid" src="images/fotos/fed/fed.jpg" alt="" /></a>
-                
-                <div class="description-box">
-                    <h4>Frontend Development | Dunkin' Donuts remake</h4>
-                    <p>Dit vak is van het tweede leerjaar en hier heb ik mij gefocust op HTML, CSS en JavaScript. De opdracht was om een bestaande website pixel-perfect na te maken. Bovendien moest de website Responsive zijn, dus ben ik vanuit Mobile first de website van Dunkin' Donuts na gaan bouwen. Neem <a href="https://ralfz123.github.io/Website-v2-Ralf-Zonneveld-204/Ralf_Zonneveld_204_v2/index.html" target="_blank" style="color: red; text-decoration: underline;">hier</a> een kijkje in mijn gemaakte website.
-                        <br>
-                        <br>
-                         De GitHub repository is <a href="https://github.com/ralfz123/Website-v2-Ralf-Zonneveld-204" target="_blank" style="color: red; text-decoration: underline;">hier</a> te vinden.
-                        </p>
-                </div>
-
-                <div class="link-box">
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div>
-
-            <div id="modal-10" class="popup-modal mfp-hide">
-
-                <a href="https://ralfz123-dating-app-feature-1.glitch.me/" target="_blank"><img class="scale-with-grid" src="images/fotos/blocktech/bloktech.jpg" alt="" /></a>
-                
-                <div class="description-box">
-                    <h4>Block Tech | Dating app</h4>
-                    <p>Block Tech was een blok op de opleiding waar je 3 vakken had; Front-end Development, Back-end Development en Project Tech. Dit was een zeer interessant blok, omdat ik in deze periode heel veel geleerd heb. Ik heb nieuwe methodes en technieken geleerd zoals Back-end Development.
-                        In het begin was dit echt lastig, maar later kreeg ik het steeds meer onder de knie. <a href="https://expressjs.com/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">Express</a> , <a href="https://nodejs.org/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">NodeJS</a> en <a href="https://www.mongodb.com/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">MongoDB</a> waren ook methoden waar ik geen ervaring mee had.
-                        Uiteindelijk ben ik nu trots op wat voor werk ik gemaakt heb, samen met <a href="https://github.com/RodneydeBoer" target="_blank" style="color: rgb(24, 170, 19); text-decoration: underline;">Rodney</a> en <a href="https://github.com/NinaPajonk" target="_blank" style="color: rgb(24, 170, 19); text-decoration: underline;">Nina</a>. 
-                        <br>
-                        <br>
-                        Neem <a href="https://ralfz123-dating-app-feature-1.glitch.me/" target="_blank" style="color: red; text-decoration: underline;">hier</a> een kijkje in onze gemaakte dating app.
-                         <br>
-                         De GitHub repository is <a href="https://github.com/ralfz123/dating-app-feature" target="_blank" style="color: red; text-decoration: underline;">hier</a> te vinden.
-                         <br>
-                         <a href="https://github.com/ralfz123/prototype_datingapp" target="_blank" style="color: red; text-decoration: underline;">Hier</a> is de link naar mijn GitHub repository van mijn eigen gemaakte dating app feature.</p>
-                </div>
-
-                <div class="link-box">
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-            </div>
-
-            <div id="modal-11" class="popup-modal mfp-hide">
-
-               <a href="https://ralfz123.github.io/linden-it/#/login" target="_blank"><img src="images/fotos/lindenit/lindenit.jpg" alt=""></a>
-                
-                <div class="description-box">
-                    <h4>App voor het monitoren van de studievoortgang - Linden-IT</h4>
-                    <p>Deze periode heb ik stage gelopen bij CMD Design Agency. Het bedrijf waarvoor ik een opdracht moest maken was Linden-IT. In deze periode heb ik heel veel geleerd; van opdrachten aan mijn team managen tot aan keihard coderen tot in de nacht.
-                        Ik heb nieuwe methodes en technieken geleerd zoals een Javascript framework genaamd React. 
-                        In het begin was dit echt lastig, maar later kreeg ik het steeds meer onder de knie.
-                        <a href="https://reactjs.org/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">
-                            React</a> ,
-                            
-                        <a href="https://redux.js.org/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">
-                            Redux</a> 
-                            
-                        en <a href="https://styled-components.com/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">
-                            Styled Components</a> 
-                            
-                        waren ook methoden waar ik geen ervaring mee had. Door er veel mee gewerkt te hebben, ben ik nu wat breder opgesteld qua Frontend Development.
-                        Uiteindelijk ben ik nu trots op wat voor werk ik gemaakt heb, samen met <a href="https://github.com/GiovanniDw" target="_blank" style="color: rgb(24, 170, 19); font-size: 14px; text-decoration: underline;">Giovanni</a>. 
-                        <br>
-                        <br>
-                        We hebben een app voor IT'ers gemaakt waarin ze hun studievoortgang kunnen bijhouden via een app.
-                        Ook hebben we een dashboard gemaakt voor de recruiters, zodat zij de IT'ers 'in de gaten kunnen houden' en snel contact met hun kunnen opnemen
-                        <br>
-                        <br>
-                        Voor de studievoortgang app voor IT'ers is <a href="https://ralfz123.github.io/linden-it/#/login" target="_blank" style="color: red; text-decoration: underline;">hier</a> de app te vinden.
-                        Hier is alleen het 'Cursussen'-scherm uitgewerkt, omdat we binnen een korte tijdsperiode het moesten coderen.
-                        De gegevens om in te loggen zijn:
-                        <br>
-                        <b style="font-size: 14px;">E-mail</b>: mike@lindenit.nl</b> <br>
-                        <b style="font-size: 14px;">Wachtwoord</b>: 1234567</b>
-                         <br>
-                         <br>
-                         De GitHub repository is <a href="https://github.com/ralfz123/linden-it" target="_blank" style="color: red; text-decoration: underline;">hier</a> te vinden.
-                </div>
-
-                <div class="link-box">
-                    <a class="popup-modal-dismiss">Sluit</a>
-                </div>
-
-                <!-- <div id="modal-12" class="popup-modal mfp-hide"> -->
-
-                    <!-- <a href="https://ralfz123-dating-app-feature-1.glitch.me/" target="_blank"><img class="scale-with-grid" src="images/fotos/blocktech/bloktech.jpg" alt="" /></a> -->
-                    
-                    <!-- <div class="description-box">
-                        <h4>Tech-Track - Datavisualistatie De Volkskrant</h4>
-                        <p>Block Tech was een blok op de opleiding waar je 3 vakken had; Front-end Development, Back-end Development en Project Tech. Dit was een zeer interessant blok, omdat ik in deze periode heel veel geleerd heb. Ik heb nieuwe methodes en technieken geleerd zoals Back-end Development.
-                            In het begin was dit echt lastig, maar later kreeg ik het steeds meer onder de knie. <a href="https://expressjs.com/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">Express</a> , <a href="https://nodejs.org/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">NodeJS</a> en <a href="https://www.mongodb.com/" target="_blank" style="color: rgb(224, 133, 14); text-decoration: underline;">MongoDB</a> waren ook methoden waar ik geen ervaring mee had.
-                            Uiteindelijk ben ik nu trots op wat voor werk ik gemaakt heb, samen met <a href="https://github.com/RodneydeBoer" target="_blank" style="color: rgb(24, 170, 19); text-decoration: underline;">Rodney</a> en <a href="https://github.com/NinaPajonk" target="_blank" style="color: rgb(24, 170, 19); text-decoration: underline;">Nina</a>. 
-                            <br>
-                            <br>
-                            Neem <a href="https://ralfz123-dating-app-feature-1.glitch.me/" target="_blank" style="color: red; text-decoration: underline;">hier</a> een kijkje in onze gemaakte dating app.
-                             <br>
-                             De GitHub repository is <a href="https://github.com/ralfz123/dating-app-feature" target="_blank" style="color: red; text-decoration: underline;">hier</a> te vinden.
-                             <br>
-                             <a href="https://github.com/ralfz123/prototype_datingapp" target="_blank" style="color: red; text-decoration: underline;">Hier</a> is de link naar mijn GitHub repository van mijn eigen gemaakte dating app feature.</p>
+      <div class="row">
+        <div class="twelve columns collapsed">
+          <h1>Bekijk hieronder mijn werk.</h1>
+
+          <!-- portfolio-wrapper -->
+          <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-12" title="">
+                  <img alt="" src="images/fotos/ringring/small.svg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Datavisualistatie - RingRing</h5>
+                      <p>Tech-Track - Information Design</p>
                     </div>
-    
-                    <div class="link-box">
-                        <a class="popup-modal-dismiss">Sluit</a>
-                    </div>
-    
-                </div> -->
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
 
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-11" title="">
+                  <img alt="" src="images/fotos/lindenit/lindenitKL.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Voortgangsapp voor IT-Professionals</h5>
+                      <p>Internship / Stage</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-10" title="">
+                  <img alt="" src="images/fotos/blocktech/bloktechKl.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>DateIT - dating app voor IT'ers</h5>
+                      <p>DateIT - Block Tech</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-09" title="">
+                  <img alt="" src="images/fotos/fed/fedKl.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>
+                        Pixelperfect namaken van bestaande website - Dunkin'
+                        Donuts
+                      </h5>
+                      <p>Frontend Development</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-08" title="">
+                  <img alt="" src="images/fotos/program/programKl.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>
+                        Tamagotchi interactief spel - Eerste aanraking met
+                        Javascript
+                      </h5>
+                      <p>Inleiding Programmeren</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-07" title="">
+                  <img
+                    alt=""
+                    src="images/fotos/intstd/internetstandaardenKl.jpg"
+                  />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Eerste website in HTML & CSS3</h5>
+                      <p>Internetstandaarden</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-06" title="">
+                  <img alt="" src="images/fotos/VId/vidKl.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>App Biblion boekenzoeker</h5>
+                      <p>Visual Interface Design (VID)</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-05" title="">
+                  <img alt="" src="images/fotos/ucdposter/ucdklein.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Poster Koffie-ervaring verbetering</h5>
+                      <p>User Centered Design (UCD)</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-04" title="">
+                  <img
+                    alt=""
+                    src="images/fotos/hciontwerpopdrcht/hciOntwerKl.jpg"
+                  />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Ontwerpopdracht Bierkratten</h5>
+                      <p>Human Computer Interaction (HCI)</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-03" title="">
+                  <img alt="" src="images/fotos/projectindi/projectinKLe.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>App '<i>Find your side job!</i>'</h5>
+                      <p>Project 1 Individueel</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-02" title="">
+                  <img
+                    alt=""
+                    src="images/fotos/video/videoGr%20kopiekopie.jpg"
+                  />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Productvideo '<i>Dr. Sleep</i>'</h5>
+                      <p>Project 2 Team</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-01" title="">
+                  <img alt="" src="images/fotos/onepage/onepageKlein.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Onepager Foodtruck</h5>
+                      <p>Vormgeving</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+          </div>
+          <!-- portfolio-wrapper end -->
+        </div>
+        <!-- twelve columns end -->
+
+        <!-- Modal Popup
+      --------------------------------------------------------------- -->
+
+        <div id="modal-01" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/fotos/onepage/opzet%20foto.jpg"
+            alt=""
+          />
+
+          <div class="description-box">
+            <h4>Onepager Foodtruck | Vormgeving</h4>
+            <p>
+              Ik ben erg trots op hoe ik mijn onepager heb gemaakt, omdat ik van
+              iets lelijks iets moois heb gemaakt. Je ziet goed de
+              iteratiestappen die ik doorlopen heb, omdat de versies erg
+              verschillen van elkaar. Bovendien vind ik het ook knap dat ik een
+              stijl heb gekozen en mijn best heb gedaan om deze stijl toe te
+              passen in mijn ontwerp. Je moet op veel dingen letten als je zo’n
+              stijl toepast, namelijk contrast, kleur, typografie, witruimte
+              etc. In mijn eerste versies was dat niet echt gelukt, maar na
+              verder onderzoek van de stijl beheerste ik de stijl en lukte het
+              mij om een beter ontwerp te maken.
+              <br />
+              Ik vind dit ook een van de leukste dingen van de opleiding, omdat
+              ik Visual Design erg leuk vind. Ik vind het leuk om creatief bezig
+              te zijn, maar wel met beeld/visueel materiaal. De reden hiervoor
+              is dat je met visueel materiaal zoveel kan en er uiteindelijk veel
+              mee kan bereiken.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+        <!-- modal-01 End -->
+
+        <div id="modal-02" class="popup-modal mfp-hide">
+          <a href="https://www.youtube.com/watch?v=azMcG8tGnH4" target="_blank"
+            ><img
+              class="scale-with-grid"
+              src="images/fotos/video/videoGr.jpg"
+              alt=""
+          /></a>
+
+          <div class="description-box">
+            <h4>Productvideo <i>Dr. Sleep</i> | Project 2 Team</h4>
+            <p>
+              Door
+              <a
+                href="https://www.youtube.com/watch?v=azMcG8tGnH4"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              te klikken kan je de video bekijken. Ik vond het erg leerzaam en
+              leuk om deze video te maken, omdat ik hiervoor eigenlijk geen
+              ervaring had met Adobe Premiere Pro en Adobe AfterEffects. Hoewel
+              ik geen kennis had, ging ik wel gewoon er mee aan de slag. Mijn
+              hulpmiddelen waren Youtube en medestudenten als ik er even niet
+              uit kwam.
+              <br />
+              Dit is ook visueel creatief zijn, want je bewerkt en ontwerpt
+              beelden die je vervolgens ziet in een videoclip. Dit is natuurlijk
+              wel anders dan ontwerpen maken als 2D statische beelden, want bij
+              video editing moet je per frame/scherm ontwerpen. Dat is
+              moeilijker omdat de beelden bewegen en er uiteindelijk meer tijd
+              in zit.
+              <br />
+              In het begin had ik enkele opstart problemen omdat het allemaal
+              nieuw voor mij was, maar na een tijdje had ik het onder de knie en
+              zat ik in een flow. Uiteindelijk had ik er zeker ongeveer 25 uur
+              ingestoken.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+        <!-- modal-02 End -->
+
+        <div id="modal-03" class="popup-modal mfp-hide">
+          <a
+            href="https://xd.adobe.com/view/55339d4c-2b38-4eca-70e1-1ab0995ca239-2302/?fullscreen"
+            target="_blank"
+          >
+            <img
+              class="scale-with-grid"
+              src="images/fotos/projectindi/projectinG1.jpg"
+              alt=""
+          /></a>
+
+          <div class="description-box">
+            <h4>App <i>Find your side job!</i> | Project 1 Individueel</h4>
+            <p>
+              De app kan je
+              <a
+                href="https://xd.adobe.com/view/55339d4c-2b38-4eca-70e1-1ab0995ca239-2302/?fullscreen"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              bekijken. <br />
+              Wat ben ik trots op mijn eerste zelfgemaakte app! Een app die de
+              mogelijkheid geeft om jouw geschikte bijbaan te vinden. Dit kan
+              door middel van een vragenlijst in te vullen op basis van het
+              principe One Primary Action Per Screen van Joshua Porter.
+              <br />
+              De stijl van de app leek eerst niet echt goed op de stijl van de
+              ISGA gids. De ISGA gids heeft namelijk een stijl die wij moesten
+              overnemen in ons ontwerp. Maar omdat ik veel stappen heb doormaakt
+              en dus veel iteraties, lijkt de laatste versie van de app heel erg
+              op de stijl van de ISGA. Verder vond ik het leerzaam om dit te
+              doen, omdat ik creatief bezig was met vormgeven en het precieze
+              werk daarvan. Om tot in de details te werken, krijg je
+              uiteindelijk een concreter en beter ontwerp.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+        <!-- modal-03 End -->
+
+        <div id="modal-04" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/fotos/hciontwerpopdrcht/hciOntwer.jpg"
+            alt=""
+          />
+
+          <div class="description-box">
+            <h4>
+              Ontwerpopdracht Bierkratten | Human Computer Interaction (HCI)
+            </h4>
+            <p>
+              Dit is een hele leerzame opdracht voor mij geweest, want ik heb
+              hier visuele hiërarchie gebruikt maar ook dus de uiteindelijke
+              doelen van die elementen. Als je bijvoorbeeld wil dat iemand iets
+              gaat kopen, dan moet je ervoor zorgen dat je de aandacht/focus
+              legt op het koopelement. Deze call-to-action zal dan leiden tot
+              een actie (de aankoop) en dat is wat je wil bereiken.
+              <br />
+              Bij dit onderdeel van HCI heb ik ook het principe
+              <i>herkennen is beter dan herinneren</i> gebruikt, want als mensen
+              het icoon van een winkelwagen of een hartje voor favorieten
+              herkennen, dan zijn ze eerder geneigd erop te klikken. Het is dus
+              ook beter dan herinneren, want anders belast het het cognivitieve
+              deel van de hersenen.
+              <br />
+              Als je kijkt naar de 2 verschillende versies, zie je dat het bij
+              de eerste versie niet duidelijk was wat de ‘opdracht’ inhield. Het
+              was onoverzichtelijk en daardoor niet duidelijk. Bij de laatste
+              versie zie je dat dit aangepakt en verbetert is. Het is nu
+              overzichtelijk en duidelijk wat er gedaan moet worden.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+        <!-- modal-04 End -->
+
+        <div id="modal-05" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/fotos/ucdposter/ucdgroot.jpg"
+            alt=""
+          />
+
+          <div class="description-box">
+            <h4>
+              Poster Koffie-ervaring verbetering | User Centered Design (UCD
+            </h4>
+            <p>
+              Dit is toch mijn eerste echte visuele ontwerp geweest. Mijn
+              ontwerpaanpak was ook niet de beste, want ik probeerde maar wat.
+              Ik had ook nog vrij weinig kennis over de tools en ik had er
+              eigenlijk geen ervaring mee. Ik begon aan mijn eerste versie van
+              de poster en het leek visueel hiërarchisch goed voor mijn gevoel.
+              Maar na enige feedback heb ik een paar aanpassingen gedaan en het
+              leek gelijk wat beter. Er was gelijk een duidelijke samenhang van
+              de elementen in de poster. Hoewel de iteratiestappen tussen de
+              versies niet heel groot zijn, heb ik er toch een duidelijke en
+              overzichtelijke poster van gemaakt.
+              <br />
+              Ik heb wel geleerd om met elementen te werken en ervoor te zorgen
+              dat er een overeenkomst is tussen die elementen. Verder heb ik
+              geleerd om met kleuren te spelen, omdat dat heel erg invloed kan
+              hebben op je ontwerp. De aandacht wordt vaak getrokken door kleur.
+              Gelukkig snap ik nu hoe ik eenvoudig een poster in elkaar zet en
+              ik zal dit meenemen in mijn volgende ontwerpen.
+              <br />
+              Dit is trouwens ook weer een visueel onderdeel en dat heeft me dus
+              toen al overtuigd. Zowel de visuele hiërarchie in een ontwerp als
+              gebruikte kleuren stonden bij dit onderdeel bovenaan.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+        <!-- modal-05 End -->
+
+        <div id="modal-06" class="popup-modal mfp-hide">
+          <a
+            href="https://xd.adobe.com/view/16529031-e541-4f7b-7a80-2523c0a80e08-6063/?fullscreen"
+            target="_blank"
+          >
+            <img
+              class="scale-with-grid"
+              src="images/fotos/VId/vidGr.jpg"
+              alt=""
+          /></a>
+
+          <div class="description-box">
+            <h4>App Biblion boekenzoeker | Visual Interface Design (VID)</h4>
+            <p>
+              De app kan je
+              <a
+                href="https://xd.adobe.com/view/16529031-e541-4f7b-7a80-2523c0a80e08-6063/?fullscreen"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              bekijken. <br />Visual Interface Design. De naam zegt het
+              eigenlijk al; het ontwerpen van een jnterface op visueel gebied.
+              Ik vind dit vak, en natuurlijk de bijbehorende opdracht, erg leuk,
+              omdat je veel bezig bent met designen. Maar je bent niet zomaar
+              aan het designer, je designt namelijk voor een bepaalde doelgroep.
+              En dát maakt het interessant, omdat je het voor die doelgroep
+              aantrekkelijk moet maken. Je moet de interesses van de doelgroep
+              weten zodat je je ontwerp daarop kan aanpassen. Zo sluit
+              uiteindelijk het ontwerp aan op de (onbewuste) wensen van de
+              doelgroep.
+              <br />
+              Ik ben erg trots op mijn ontwerp, want ik had eerst wel een idee
+              hoe ik het zou aanpakken maar ik had nog niet nagedacht over de
+              doelgroep. Nadat ik daar onderzoek naar gedaan had, heb ik dat wél
+              toegepast in mijn ontwerp voor de iPad. Je ziet ook dat er
+              duidelijk verschil is tussen versie 1 en de laatste versie.
+              Bovendien heb ik een hoop iteratiestappen doorlopen, wat
+              uiteindelijk tot een duidelijk en helder ontwerp leidde.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+        <!-- modal-06 End -->
+
+        <div id="modal-07" class="popup-modal mfp-hide">
+          <a
+            href="https://ralfz123.github.io/internetstandaarden_20182019_year1CMD/index.html"
+            target="_blank"
+            ><img
+              class="scale-with-grid"
+              src="images/fotos/intstd/internetstandaarden.jpg"
+              alt=""
+          /></a>
+
+          <div class="description-box">
+            <h4>Internetstandaarden | Eerst gebouwde website</h4>
+            <p>
+              Bij dit vak heb ik voor het eerst leren omgaan met HTML5 en CSS3.
+              Ik vond het zeer interessant en ik wil zeker deze kant opgaan!
+              Neem
+              <a
+                href="https://ralfz123.github.io/internetstandaarden_20182019_year1CMD/index.html"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              een kijkje in mijn gemaakte website.
+              <br />
+              <br />
+              De GitHub repository is
+              <a
+                href="https://github.com/ralfz123/internetstandaarden_20182019_year1CMD"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              te vinden.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+
+        <div id="modal-08" class="popup-modal mfp-hide">
+          <a
+            href="https://ralfz123.github.io/inleidingProgrammeren_20182019_year1CMD/index.html"
+            target="_blank"
+            ><img
+              class="scale-with-grid"
+              src="images/fotos/program/program.jpg"
+              alt=""
+          /></a>
+
+          <div class="description-box">
+            <h4>Inleiding Programmeren | Tamagotchi</h4>
+            <p>
+              Dit vak was de eerste aanraking met JavaScript (ES5). Een nieuw,
+              moeilijk maar zeer interessant vak. Neem
+              <a
+                href="https://ralfz123.github.io/inleidingProgrammeren_20182019_year1CMD/index.html"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              een kijkje in mijn gemaakte website.
+              <br />
+              <br />
+              De GitHub repository is
+              <a
+                href="https://github.com/ralfz123/inleidingProgrammeren_20182019_year1CMD"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              te vinden.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+
+        <div id="modal-09" class="popup-modal mfp-hide">
+          <a
+            href="https://ralfz123.github.io/Website-v2-Ralf-Zonneveld-204/Ralf_Zonneveld_204_v2/index.html"
+            target="_blank"
+            ><img class="scale-with-grid" src="images/fotos/fed/fed.jpg" alt=""
+          /></a>
+
+          <div class="description-box">
+            <h4>Frontend Development | Dunkin' Donuts remake</h4>
+            <p>
+              Dit vak is van het tweede leerjaar en hier heb ik mij gefocust op
+              HTML, CSS en JavaScript. De opdracht was om een bestaande website
+              pixel-perfect na te maken. Bovendien moest de website Responsive
+              zijn, dus ben ik vanuit Mobile first de website van Dunkin' Donuts
+              na gaan bouwen. Neem
+              <a
+                href="https://ralfz123.github.io/Website-v2-Ralf-Zonneveld-204/Ralf_Zonneveld_204_v2/index.html"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              een kijkje in mijn gemaakte website.
+              <br />
+              <br />
+              De GitHub repository is
+              <a
+                href="https://github.com/ralfz123/Website-v2-Ralf-Zonneveld-204"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              te vinden.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+
+        <div id="modal-10" class="popup-modal mfp-hide">
+          <a
+            href="https://ralfz123-dating-app-feature-1.glitch.me/"
+            target="_blank"
+            ><img
+              class="scale-with-grid"
+              src="images/fotos/blocktech/bloktech.jpg"
+              alt=""
+          /></a>
+
+          <div class="description-box">
+            <h4>Block Tech | Dating app</h4>
+            <p>
+              Block Tech was een blok op de opleiding waar je 3 vakken had;
+              Front-end Development, Back-end Development en Project Tech. Dit
+              was een zeer interessant blok, omdat ik in deze periode heel veel
+              geleerd heb. Ik heb nieuwe methodes en technieken geleerd zoals
+              Back-end Development. In het begin was dit echt lastig, maar later
+              kreeg ik het steeds meer onder de knie.
+              <a
+                href="https://expressjs.com/"
+                target="_blank"
+                style="color: rgb(224, 133, 14); text-decoration: underline"
+                >Express</a
+              >
+              ,
+              <a
+                href="https://nodejs.org/"
+                target="_blank"
+                style="color: rgb(224, 133, 14); text-decoration: underline"
+                >NodeJS</a
+              >
+              en
+              <a
+                href="https://www.mongodb.com/"
+                target="_blank"
+                style="color: rgb(224, 133, 14); text-decoration: underline"
+                >MongoDB</a
+              >
+              waren ook methoden waar ik geen ervaring mee had. Uiteindelijk ben
+              ik nu trots op wat voor werk ik gemaakt heb, samen met
+              <a
+                href="https://github.com/RodneydeBoer"
+                target="_blank"
+                style="color: rgb(24, 170, 19); text-decoration: underline"
+                >Rodney</a
+              >
+              en
+              <a
+                href="https://github.com/NinaPajonk"
+                target="_blank"
+                style="color: rgb(24, 170, 19); text-decoration: underline"
+                >Nina</a
+              >.
+              <br />
+              <br />
+              Neem
+              <a
+                href="https://ralfz123-dating-app-feature-1.glitch.me/"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              een kijkje in onze gemaakte dating app.
+              <br />
+              De GitHub repository is
+              <a
+                href="https://github.com/ralfz123/dating-app-feature"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              te vinden.
+              <br />
+              <a
+                href="https://github.com/ralfz123/prototype_datingapp"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >Hier</a
+              >
+              is de link naar mijn GitHub repository van mijn eigen gemaakte
+              dating app feature.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+        </div>
+
+        <div id="modal-11" class="popup-modal mfp-hide">
+          <a href="https://ralfz123.github.io/linden-it/#/login" target="_blank"
+            ><img src="images/fotos/lindenit/lindenit.jpg" alt=""
+          /></a>
+
+          <div class="description-box">
+            <h4>App voor het monitoren van de studievoortgang - Linden-IT</h4>
+            <p>
+              Deze periode heb ik stage gelopen bij CMD Design Agency. Het
+              bedrijf waarvoor ik een opdracht moest maken was Linden-IT. In
+              deze periode heb ik heel veel geleerd; van opdrachten aan mijn
+              team managen tot aan keihard coderen tot in de nacht. Ik heb
+              nieuwe methodes en technieken geleerd zoals een Javascript
+              framework genaamd React. In het begin was dit echt lastig, maar
+              later kreeg ik het steeds meer onder de knie.
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                style="color: rgb(224, 133, 14); text-decoration: underline"
+              >
+                React</a
+              >
+              ,
+
+              <a
+                href="https://redux.js.org/"
+                target="_blank"
+                style="color: rgb(224, 133, 14); text-decoration: underline"
+              >
+                Redux</a
+              >
+
+              en
+              <a
+                href="https://styled-components.com/"
+                target="_blank"
+                style="color: rgb(224, 133, 14); text-decoration: underline"
+              >
+                Styled Components</a
+              >
+
+              waren ook methoden waar ik geen ervaring mee had. Door er veel mee
+              gewerkt te hebben, ben ik nu wat breder opgesteld qua Frontend
+              Development. Uiteindelijk ben ik nu trots op wat voor werk ik
+              gemaakt heb, samen met
+              <a
+                href="https://github.com/GiovanniDw"
+                target="_blank"
+                style="
+                  color: rgb(24, 170, 19);
+                  font-size: 14px;
+                  text-decoration: underline;
+                "
+                >Giovanni</a
+              >.
+              <br />
+              <br />
+              We hebben een app voor IT'ers gemaakt waarin ze hun
+              studievoortgang kunnen bijhouden via een app. Ook hebben we een
+              dashboard gemaakt voor de recruiters, zodat zij de IT'ers 'in de
+              gaten kunnen houden' en snel contact met hun kunnen opnemen
+              <br />
+              <br />
+              Voor de studievoortgang app voor IT'ers is
+              <a
+                href="https://ralfz123.github.io/linden-it/#/login"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              de app te vinden. Hier is alleen het 'Cursussen'-scherm
+              uitgewerkt, omdat we binnen een korte tijdsperiode het moesten
+              coderen. De gegevens om in te loggen zijn:
+              <br />
+              <b style="font-size: 14px">E-mail</b>: mike@lindenit.nl <br />
+              <b style="font-size: 14px">Wachtwoord</b>: 1234567
+              <br />
+              <br />
+              De GitHub repository is
+              <a
+                href="https://github.com/ralfz123/linden-it"
+                target="_blank"
+                style="color: red; text-decoration: underline"
+                >hier</a
+              >
+              te vinden.
+            </p>
+          </div>
+
+          <div class="link-box">
+            <a class="popup-modal-dismiss">Sluit</a>
+          </div>
+
+          <div id="modal-12" class="popup-modal mfp-hide">
+            <a
+              href="https://ralfz123.github.io/ring-ring/src/index.html"
+              target="_blank"
+              ><img
+                class="scale-with-grid"
+                src="images/fotos/ringring/big.svg"
+                width="100%"
+                alt=""
+            /></a>
+
+            <div class="description-box">
+              <h4>Datavisualistatie in een dashboard</h4>
+              <p>
+                Een dashboard vol met rijke data en niet eerder vertoonde
+                inzichten wat betreft fietsongelukken en fietsdrukte. Dat is wat
+                deze applicatie is. Dit is een project van mijn opleiding die 6
+                weken geduurd heeft. In het begin waren we vooral bezig met het
+                in elkaar zetten van een concept. pas in de 4e week hebben we
+                een strak concept neergezet. In de laatste 2 weken ben ik bezig
+                geweest met het nabouwen van het XD design. Dat is goed gelukt;
+                u kunt het gebouwde concept
+                <a
+                  href="https://ralfz123.github.io/ring-ring/src/index.html"
+                  target="_blank"
+                  style="
+                    color: red;
+                    text-decoration: underline;
+                    transition: ease-in-out 2s;
+                  "
+                  >hier</a
+                >
+                zien.
+                <br />
+                De GitHub repository is
+                <a
+                  href="https://github.com/ralfz123/ring-ring"
+                  target="_blank"
+                  style="color: red; text-decoration: underline"
+                  >hier</a
+                >
+                te vinden.
+              </p>
             </div>
 
+            <div class="link-box">
+              <a class="popup-modal-dismiss">Sluit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row End -->
+    </section>
+    <!-- Portfolio Section End-->
 
+    <!-- Resume Section
+   ================================================== -->
+    <section id="resume">
+      <!-- Skills
+      ----------------------------------------------- -->
 
-        </div> <!-- row End -->
+      <div class="row skill">
+        <div class="three columns header-col">
+          <h1><span>Skills</span></h1>
+        </div>
 
-    </section> <!-- Portfolio Section End-->
+        <div class="nine columns main-col">
+          <p>
+            Ik ben goed in het <b>gestructureerd</b> werken en zó houd ik
+            overzicht voor mijzelf over mijn werk. Verder ben ik
+            <b>behulpzaam</b>, want ik sta graag voor mensen klaar om hun te
+            helpen. <b>Sociaal</b> zijn is één van de woorden die vaak over mij
+            worden gezegd. Ik sta altijd open voor nieuwe contacten en ik wil
+            graag steeds meer leren over de samenleving. Ook ben ik
+            <b>leergierig</b>, omdat ik soms graag veel wil weten en leren over
+            bepaalde onderwerpen. Een goede eigenschap van mij is ook het
+            <b>denken in oplossingen</b>, want als er een probleem is, ga ik
+            direct nadenken hoe ik dat probleem zo snel en goed mogelijk kan
+            oplossen.
+          </p>
 
+          <div class="bars">
+            <ul class="skills">
+              <h3 style="margin-bottom: 27px; color: #9d0928">Design</h3>
+              <br />
+
+              <li>
+                <span class="bar-expand photoshop"></span
+                ><em>Adobe Photoshop</em>
+              </li>
+              <li>
+                <span class="bar-expand illustrator"></span
+                ><em>Adobe Illustrator</em>
+              </li>
+              <li>
+                <span class="bar-expand premierepro"></span
+                ><em>Adobe Premiere Pro</em>
+              </li>
+              <li><span class="bar-expand adobexd"></span><em>Adobe XD</em></li>
+              <li>
+                <span class="bar-expand invision"></span><em>Invision</em>
+              </li>
+
+              <h3 style="margin-bottom: 27px; color: #9d0928">Develop</h3>
+              <br />
+              <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+              <li><span class="bar-expand css"></span><em>CSS3</em></li>
+              <li>
+                <span class="bar-expand javascript"></span
+                ><em>Vanilla Javascript (ES5 + ES6)</em>
+              </li>
+              <li><span class="bar-expand react"></span><em>React.js</em></li>
+
+              <li><span class="bar-expand cplusplus"></span><em>C++</em></li>
+            </ul>
+          </div>
+          <!-- end skill-bars -->
+        </div>
+        <!-- main-col end -->
+      </div>
+      <!-- End skills -->
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+        <div class="three columns header-col">
+          <h1><span>Educatie</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Communication &amp; Multimedia Design</h3>
+              <p class="info">
+                Hogeschool van Amsterdam<span>&bull;</span>
+                <em class="date">September 2018 - Nu</em>
+              </p>
+
+              <p>
+                Sinds september 2018 ben ik bezig met de studie Communication
+                &amp; Multimedia Design. Een keuze waar ik zeker geen spijt van
+                heb. Op deze opleiding word ik opgeleid tot een ontwerper die
+                digitale interactieve producten kan ontwerpen. De focus ligt dan
+                op Visual Design, Interaction Design en Front-end Development.
+                Dat laatste is wat erg mijn aandacht trekt en waar ik affiniteit
+                mee heb. Ik zie mijzelf later als een Front-end Developer (of
+                zelfs Full-Stack Developer) rondlopen in mijn eigen bedrijf om
+                alles onder controle te houden.
+                <a href="#portfolio">Mijn werk</a> laat dan ook zien dat ik
+                mijzelf steeds meer aan het ontwikkelen ben op het technisch
+                gebied.
+              </p>
+            </div>
+            <!-- item end -->
+          </div>
+
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>HAVO</h3>
+              <p class="info">
+                Herbert Vissers College<span>&bull;</span>
+                <em class="date">September 2012 - Juni 2018</em>
+              </p>
+
+              <p>
+                Een aantal jaren geleden heb ik het niveau HAVO op de middelbare
+                school gevolgd. In het derde leerjaar moest ik een kant kiezen.
+                Uiteraard koos ik voor Natuur &amp; Techniek, omdat dat
+                vakkenpakket de vakken bevatte die ik leuk vond. Ik houd
+                namelijk erg van de natuur, maar ook van hoe bijvoorbeeld
+                systemen werken of bepaalde software. Bovendien koos ik niet
+                voor een ander vakkenpakket, omdat die de vakken bevatten die ik
+                niet interessant vond, omdat ik daar geen passie mee had.
+                Uiteindelijk ben ik succesvol geslaagd voor mijn HAVO diploma.
+              </p>
+            </div>
+          </div>
+          <!-- item end -->
+        </div>
+        <!-- main-col end -->
+      </div>
+      <!-- End Education -->
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+        <div class="three columns header-col">
+          <h1><span>Werk</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Woonzorgmedewerker</h3>
+              <p class="info">
+                Zorgbalans, Bennebroek <span>&bull;</span>
+                <em class="date">Juni 2019 - Nu</em>
+              </p>
+
+              <p>
+                Sinds juni 2019 werk ik als woonzorgmedewerker in een
+                verzorgingstehuis in Bennebroek. De afdeling waarop ik werk is
+                een psychogeriatrische en psychische groep. Hiervoor had ik
+                totaal geen ervaring in de zorg, maar ik was wel altijd zorgzaam
+                en sociaal. Dit werk vind ik overigens ook zeer goed voor mijn
+                eigen sociale ontwikkeling. Tot slot vind ik dit werk erg leuk
+                en blijft het mij iedere keer weer steeds motiveren om voor de
+                bewoners te zorgen.
+              </p>
+            </div>
+          </div>
+          <!-- item end -->
+
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Kok in Steakrestaurant</h3>
+              <p class="info">
+                Massada, Nieuw-Vennep <span>&bull;</span>
+                <em class="date">April 2015 - Augustus 2019</em>
+              </p>
+
+              <p>
+                Toen ik op 15 jarige leeftijd op zoek was naar een bijbaantje
+                kwam ik op het idee om in een steakrestaurant te gaan werken.
+                Echter had ik nog geen keuken ervaring, dus begon ik als
+                afwasser. In de loop der tijd werd ik kok van de koude kant. Kok
+                van de koude kant wordt ook wel <i>Garde manger</i> genoemd. Na
+                hier zo'n 5 jaar veel geleerd te hebben over het managen van
+                voorraden maken, schoonmaken en uiteraard eten klaarmaken vond
+                ik het goed zo en ben ik hier gestopt.
+              </p>
+            </div>
+          </div>
+          <!-- item end -->
+
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Sales Promotor NRC</h3>
+              <p class="info">
+                Pepperminds, Haarlem <span>&bull;</span>
+                <em class="date">Mei 2018 - September 2018 </em>
+              </p>
+
+              <p>
+                Voor een paar maanden heb ik bij Pepperminds gewerkt als Sales
+                Promotor (straatverkoper) van het NRC. Dit wekte erg mijn
+                interesse, omdat mij veel werd geleerd over verschillende
+                verkoopstrategiën. Ook manieren hoe je mensen kunt beïnvloeden
+                (denk aan de principes van Robert Cialdini) waren voor mij
+                compleet nieuw. Er werd van mij verwacht dat ik met volle
+                motivatie en overtuiging de straat op ging om NRC abonnementen
+                te verkopen. Ik vond dit een prima zomerbaan, maar na een tijdje
+                verveelde het en voelde ik niet meer de 'vibe' die ik aan het
+                begin had. Tot slot heb ik daar veel geleerd over Sales en
+                psychologische beïnvloeding en heeft dat mij deels gemaakt tot
+                de persoon die ik nu ben.
+              </p>
+            </div>
+          </div>
+          <!-- item end -->
+        </div>
+        <!-- main-col end -->
+      </div>
+      <!-- End Work -->
+    </section>
+    <!-- Resume Section End-->
 
     <!-- Call-To-Action Section
    ================================================== -->
     <!-- Call-To-Action Section End-->
 
-
     <!-- Testimonials Section
    ================================================== -->
-
-
 
     <!-- Contact Section
    ================================================== -->
     <section id="contact">
-
-        <div class="row section-head">
-
-            <div class="two columns header-col">
-
-                <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                <p class="lead">Bij vragen of interesses kunt u contact opnemen met mij. <br>
-                    Dit kan door een <a href="mailto:ralf_zonneveld@hotmail.com">e-mail</a> te sturen.
-                <br />
-                Ook kunt u onderstaand formulier invullen.</p>
-
-            </div>
-
+      <div class="row section-head">
+        <div class="two columns header-col">
+          <h1><span>Get In Touch.</span></h1>
         </div>
-        
 
-        <div class="row">
+        <div class="ten columns">
+          <p class="lead">
+            Bij vragen of interesses kunt u contact opnemen met mij. <br />
+            Dit kan door een
+            <a href="mailto:ralf_zonneveld@hotmail.com">e-mail</a> te sturen.
+            <br />
+            Ook kunt u onderstaand formulier invullen.
+          </p>
+        </div>
+      </div>
 
-           <div class="eight columns">
+      <div class="row">
+        <div class="eight columns">
+          <form action="#contact" data-netlify="true" method="post">
+            <fieldset>
+              <div>
+                <label for="contactName"
+                  >Naam <span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  value=""
+                  size="35"
+                  id="contactName"
+                  name="contactName"
+                />
+              </div>
 
-                <form action="#contact" data-netlify="true" method="post">
-                    <fieldset>
+              <div>
+                <label for="contactEmail"
+                  >E-mailadres<span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  value=""
+                  size="35"
+                  id="contactEmail"
+                  name="contactEmail"
+                />
+              </div>
 
-                        <div>
-                            <label for="contactName">Naam <span class="required">*</span></label>
-                            <input type="text" value="" size="35" id="contactName" name="contactName">
-                        </div>
+              <div>
+                <label for="contactSubject">Onderwerp</label>
+                <input
+                  type="text"
+                  value=""
+                  size="35"
+                  id="contactSubject"
+                  name="contactSubject"
+                />
+              </div>
 
-                        <div>
-                            <label for="contactEmail">E-mailadres<span class="required">*</span></label>
-                            <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                        </div>
+              <div>
+                <label for="contactMessage"
+                  >Bericht <span class="required">*</span></label
+                >
+                <textarea
+                  cols="50"
+                  rows="15"
+                  id="contactMessage"
+                  name="contactMessage"
+                ></textarea>
+              </div>
 
-                        <div>
-                            <label for="contactSubject">Onderwerp</label>
-                            <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                        </div>
-
-                        <div>
-                            <label for="contactMessage">Bericht <span class="required">*</span></label>
-                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                        </div>
-
-                        <div>
-                            <button class="submit">Verstuur</button>
-                            <p>Als u op <span style="color: rgb(197, 197, 197);">Verstuur</span> klikt, is het formulier succesvol verzonden naar mij.
-                            <br />
-                            Ik neem zo snel mogelijk contact met u op.</p>
-                            <!-- <span id="image-loader">
+              <div>
+                <button class="submit">Verstuur</button>
+                <p>
+                  Als u op
+                  <span style="color: rgb(197, 197, 197)">Verstuur</span> klikt,
+                  is het formulier succesvol verzonden naar mij.
+                  <br />
+                  Bovendien zal ik zo snel mogelijk contact met u opnemen.
+                </p>
+                <!-- <span id="image-loader">
                                 <img alt="" src="images/loader.gif">
                             </span>
                             <a href="ralf_zonneveld@hotmail.com"></a> -->
-                        </div>
+              </div>
+            </fieldset>
+          </form>
 
-                    </fieldset>
-                </form> 
-
-        
-                <!-- <div id="message-warning">
+          <!-- <div id="message-warning">
                     Error
                 </div>
                 <div id="message-success">
                     <i class="fa fa-check"></i>Your message was sent, thank you!<br>
                 </div> -->
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-                <div class="widget widget_contact">
-
-                    <h4>Social Media</h4>
-                    <p class="address">           
-                        <a href="https://github.com/ralfz123" target="_blank">GitHub</a><br> 
-                        <a href="https://www.linkedin.com/in/ralf-zonneveld-89b9171a0/" target="_blank">LinkedIn</a><br>
-                        <a href="https://www.facebook.com/ralf.zonneveld.1" target="_blank">Facebook</a><br>
-                        <a href="https://www.instagram.com/ralfoolz/" target="_blank">Instagram</a>
-                    </p>
-                </div>
-
-
-
-            </aside>
-
         </div>
 
-    </section> <!-- Contact Section End-->
-
+        <aside class="four columns footer-widgets">
+          <div class="widget widget_contact">
+            <h4>Social Media</h4>
+            <p class="address">
+              <a href="https://github.com/ralfz123" target="_blank">GitHub</a
+              ><br />
+              <a
+                href="https://www.linkedin.com/in/ralf-zonneveld-89b9171a0/"
+                target="_blank"
+                >LinkedIn</a
+              ><br />
+              <a
+                href="https://www.facebook.com/ralf.zonneveld.1"
+                target="_blank"
+                >Facebook</a
+              ><br />
+              <a href="https://www.instagram.com/ralfoolz/" target="_blank"
+                >Instagram</a
+              >
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- Contact Section End-->
 
     <!-- footer
    ================================================== -->
     <footer>
-
-        <div class="row">
-
-            <div class="twelve columns">
-
-                <ul class="social-links">
-                    <li><a href="https://github.com/ralfz123" target="_blank"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/ralf-zonneveld-89b9171a0/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://www.facebook.com/ralf.zonneveld.1" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/ralfoolz/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-
-            </div>
-
-            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="social-links">
+            <li>
+              <a href="https://github.com/ralfz123" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ralf-zonneveld-89b9171a0/"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/ralf.zonneveld.1"
+                target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ralfoolz/" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-        <p style="font-size: 0.9em; margin-bottom: 0em; color:rgb(128, 128, 128)">
-            <span id="date"></span>
-            <span>• Ralf Zonneveld</span>
-        </p>
-        <p style="font-size: 0.9em; opacity: 0.1;">Used template: https://www.styleshout.com/free-templates/ceevee/ - Copyright 2014 CeeVee</p>
-    </footer> <!-- Footer End-->
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#home"
+            ><i class="icon-up-open"></i
+          ></a>
+        </div>
+      </div>
+      <p
+        style="font-size: 0.9em; margin-bottom: 0em; color: rgb(128, 128, 128)"
+      >
+        <span id="date"></span>
+        <span>• Ralf Zonneveld</span>
+      </p>
+      <p style="font-size: 0.9em; opacity: 0.1">
+        Used template: https://www.styleshout.com/free-templates/ceevee/ -
+        Copyright 2014 CeeVee
+      </p>
+    </footer>
+    <!-- Footer End-->
 
     <!-- Java Script
    ================================================== -->
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
     <script>
-        window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
-
+      window.jQuery ||
+        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
     </script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
 
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/waypoints.js"></script>
@@ -968,6 +1435,6 @@
     <script src="js/init.js"></script>
     <script src="js/script.js"></script>
     <script src="js/currentDate.js"></script>
-</body>
-
+    <script src="js/sneakyConsoleViewer.js"></script>
+  </body>
 </html>
