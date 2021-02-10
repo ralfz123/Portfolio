@@ -224,6 +224,38 @@ ul#nav li.current a {
   overflow: hidden;
 }
 
+.blob {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  fill: #272727;
+  width: 10vmax;
+  z-index: -1;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes move {
+  0% {
+    transform: scale(0.5) translate(10px, -30px);
+  }
+  38% {
+    transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg);
+  }
+  40% {
+    transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg);
+  }
+  78% {
+    transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg);
+  }
+  80% {
+    transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg);
+  }
+  100% {
+    transform: scale(0.5) translate(10px, -30px);
+  }
+}
+
 #about a,
 #about a:visited {
   color: #fff;
@@ -376,6 +408,34 @@ ul#nav li.current a {
 .bars .skills {
   margin-top: 36px;
   list-style: none;
+}
+
+.gear {
+  height: 145px;
+  position: relative;opacity: .1;
+}
+
+.gear img:nth-child(1) {
+  width: 160px;
+  animation: rotate 10s linear infinite;
+}
+
+.gear img:nth-child(2) {
+  width: 113px;
+  animation: rotate 10s linear infinite;
+  animation-direction: reverse;
+  position: absolute;
+  left: 150px;
+  top: 0;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .bars li {
